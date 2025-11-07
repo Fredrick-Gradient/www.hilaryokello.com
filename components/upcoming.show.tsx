@@ -7,7 +7,7 @@ import { ChevronRight } from "lucide-react";
 
 const UpcomingShows = () => {
   const imageDimension = 500;
-  const today = new Date();
+  const today = new Date(); go
 
   // Date parsing function
   const parseDate = (dateString: string) => {
@@ -22,7 +22,7 @@ const UpcomingShows = () => {
     location: "Theatre La Bonita - Kampala",
     ticketPrice: "40K Single | 60K A Pair",
     image: "/gallery/Uganda-Must-Laugh-Grand-Finale---Dr.-Lighter-Frame.webp",
-    link: "https://karitickets.com/event/UGANDA_MUST_LAUGH-_Grand_Finale",
+    link: "https://www.kayetickets.com/events/grand-finale-uganda-must-laugh",
     description:
       "After a year of unstoppable laughter, the biggest comedy movement in the land comes back for one last thunderous night! Dr Hilary Okello returns in this Grand Finale bringing together Uganda’s finest comedians, epic performances, and unforgettable moments of madness. It’s not just a show—it’s history in the making. Come ready to laugh, scream, and celebrate Ugandan comedy at its peak!",
   };
@@ -57,7 +57,7 @@ const UpcomingShows = () => {
             variant="bordered"
             target="_blank"
             as={Link}
-            href="https://karitickets.com/event/UGANDA_MUST_LAUGH-_Grand_Finale"
+            href="https://www.kayetickets.com/events/grand-finale-uganda-must-laugh"
           >
             Buy Ticket Now
              <ChevronRight className="mr-2 h-5 w-5" />
@@ -96,7 +96,7 @@ const UpcomingShows = () => {
             variant="bordered"
             as={Link}
             target="_blank"
-            href="https://karitickets.com/event/UGANDA_MUST_LAUGH-_Grand_Finale"
+            href="https://www.kayetickets.com/events/grand-finale-uganda-must-laugh"
           >
             Buy Tickets Now
              <ChevronRight className="mr-2 h-5 w-5" />
